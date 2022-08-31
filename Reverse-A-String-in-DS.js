@@ -82,9 +82,9 @@ function done()
     var text = "Assignment";
 
     
-    console.log(" Before Reverse : [" + text + "]");
+    console.log(" Before Reverse : " + text);
     text = task.reverse(text);
-    console.log("\n After Reverse : [" + text + "]");
+    console.log("\n After Reverse : " + text);
     
 }
 done();
