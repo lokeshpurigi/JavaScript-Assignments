@@ -108,14 +108,12 @@ function done()
     stack.push(4);
     stack.push(5);
     stack.push(6);
-    stack.push(7);
-    stack.push(8);
+    
     /*
     Constructed stack
     ==========
-        8  <-- Top
-        7  
-        6  
+          
+        6  <-- Top
         5  
         4  
         3  
@@ -136,8 +134,7 @@ function done()
         4  
         5  
         6  
-        7  
-        8
+       
     */
     // Display stack elements
     console.log(" After Reverse ");
